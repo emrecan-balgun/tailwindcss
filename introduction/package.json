@@ -4,7 +4,8 @@
   "description": "* npx tailwindcss -o tailwind.css (create tailwind.css file)\r * npx tailwindcss init (create tailwind.config.js)",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i input.css -o src/output.css --minify",
+    "watch": "npx tailwindcss -i input.css -o src/output.css -w --minify"
   },
   "keywords": [],
   "author": "",
