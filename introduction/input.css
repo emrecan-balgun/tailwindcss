@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 @layer components {
-    .btn {
-        @apply bg-gray-300 px-4 h-12 inline-flex items-center rounded-lg hover:bg-gray-700 hover:text-white transition-colors
+    .nav-link {
+        @apply flex items-center h-10 rounded px-3 text-sm text-prototurk font-medium hover:bg-gray-100 transition-colors
     }
+
+    .nav-link.active {
+        @apply bg-prototurk text-white
+    }
+
+    
 }
 
 @layer base {

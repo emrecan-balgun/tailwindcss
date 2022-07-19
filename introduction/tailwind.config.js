@@ -6,9 +6,13 @@ module.exports = {
     extend: {
       colors: {
         prototurk: '#322445a1',
+        twitter: '#1da1f2',
       },
       spacing: {
         '15': '3.75rem',
+      },
+      zIndex: {
+        '-1': '-1',
       }
     },
   },
